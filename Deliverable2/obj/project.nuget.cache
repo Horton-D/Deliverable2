@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tNMtZLMp1SQXUnabnD1gv6w/+9GePf31H96Yx3NLrKlzyX5VhiHmIEqkOlTVK246zog1OzSxik8Vh+tK4mDyyg==",
+  "success": true,
+  "projectFilePath": "/Users/darriushorton/Documents/Garnd Circus/Deliverable2/Deliverable2/Deliverable2.csproj",
+  "expectedPackageFiles": [
+    "/Users/darriushorton/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
