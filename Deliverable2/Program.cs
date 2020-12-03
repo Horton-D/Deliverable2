@@ -6,9 +6,9 @@ namespace Deliverable2
     {
         static void Main(string[] args)
         {
-            int heads = 0;
-            int tails = 0;
-            int numOfFlips = 0;
+            double heads = 0;
+            double tails = 0;
+            double numOfFlips = 0;
             string userPick;
             Random coinflip = new Random();
 
@@ -41,12 +41,12 @@ namespace Deliverable2
                 if (flip == 1)
                 {
                     heads++;
-                    Console.WriteLine("Heads");
+                    Console.WriteLine("heads");
                 }
                 else
                 {
                     tails++;
-                    Console.WriteLine("Tails");
+                    Console.WriteLine("tails");
                     
                 }
 
@@ -56,8 +56,11 @@ namespace Deliverable2
             Console.WriteLine("You flipped a coin " + numOfFlips
                + " times " + "and you got " + heads + " heads and " + tails + " tails.");
 
-            int percentage = (heads / numOfFlips) * 100;
-            Console.WriteLine(percentage);
+            double percentageHeads = (heads / numOfFlips) * 100;
+            Console.WriteLine("Heads " + percentageHeads + "%");
+
+            double percentageTails = (tails / numOfFlips) * 100;
+            Console.WriteLine("Tails " + percentageTails + "%");
 
 
         }
